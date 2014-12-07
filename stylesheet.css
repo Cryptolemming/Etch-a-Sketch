@@ -1,0 +1,117 @@
+body {
+	background-color: black;
+
+}
+
+div {
+	margin: 0;
+	padding: 0;
+}
+
+a:link {
+	color: white;
+	text-decoration: none;
+}
+
+a:visited {
+	color: white;
+}
+
+a:hover {
+	color: #F75D59;
+}
+
+
+.left {
+	float: left;
+	padding: 15px;
+	background-color: #394EE9;
+	border-radius: 15px;
+	margin-left: 15px;
+	position: absolute;
+}
+
+h2 {
+	color: white;
+	text-align: center;
+}
+
+.info {
+	color: white;
+	background-color: #2E64FE;
+	align: center;
+	padding: 5px;
+	border-radius: 15px;
+	box-shadow: inset 0 0 0 1px #27496d,0 5px 15px #193047;
+}
+
+.info:hover{
+	background-color: #01DF3A;
+}
+
+.top {
+	border-radius: 30px 30px 0 0;
+	position: relative;
+	height: 80px;
+	margin: auto;
+	margin-left: 250px;
+	width: 716px;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#E7D4D5), color-stop(10%,#E18A90), color-stop(51%,#E4424D), color-stop(100%,#E41523));
+}
+
+h1 {
+	color: white;
+	text-align: center;
+	position: relative;
+	padding: 35px 0px 0px 0px;
+
+}
+
+button {
+	background-color: #2E64FE;
+	width: 100px;
+	height: 30px;
+	margin-top: -25px;
+	border-radius: 15px;
+	box-shadow: inset 0 0 0 1px #27496d,0 5px 15px #193047;
+	color: white;
+	font-size: 1em;
+}
+
+button:hover {
+	box-shadow: inset 0 0 0 1px #27496d,inset 0 5px 30px #193047;
+	
+}
+
+#resize{
+	float: left;
+	position: relative;
+	margin-left: 50px;
+}
+
+#randomize {
+	float: right;
+	position: relative;
+	margin-right: 50px;
+}
+
+.container {
+margin: auto;
+margin-left: 250px;
+width: 650px;
+height: 710px;
+border: 33px solid #E41523;
+background-color: #F8f8f8;
+border-radius: 0 0 15px 15px;
+box-shadow: inset 0 0 0 1px #27496d,0 5px 15px #193047;
+}
+
+.row{
+	width: auto;
+}
+
+.square {
+	margin: 1px;
+	display: inline-block;
+	position: relative;
+}
