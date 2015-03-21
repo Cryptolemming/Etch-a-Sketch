@@ -38,7 +38,7 @@ $(document).ready(function() {
 			$('.square').hover(function(){
 					$(this).css('background-color', '#F75D59');
 			}, function(){
-					$(this).css('background-color', 'black');
+					$(this).css('background-color', '#000000');
 			});
 			};
 			
