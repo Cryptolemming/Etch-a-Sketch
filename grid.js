@@ -36,12 +36,11 @@ $(document).ready(function() {
 
 			// Declare Box Hover Effect
 			$('.square').hover(function(){
-					$(this).css('background-color', '#F75D59');
+					$(this).css('background-color', '#000000');
 			}, function(){
 					$(this).css('background-color', '#000000');
 			});
 			};
-			
 			
 
 	// Create the Board!

@@ -45,7 +45,7 @@ h2 {
 }
 
 .info {
-	color: white;
+	color: #fff !important;
 	background-color: gray;
 	padding: 10px;
 	border-radius: 15px;
